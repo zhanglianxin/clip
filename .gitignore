@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# GoLand
+.idea
+
+# Binary
+clip
+
+# Dep
+/vendor
+
+# Config
+
+# docker-compose env
+.env
+
+# Certs
+#/certs
+
+# mobileconfig
+*.mobileconfig
+
+# Misc.
+open_graph_logo.png
+test.jpg
