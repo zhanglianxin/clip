@@ -40,6 +40,7 @@ GLOBAL OPTIONS:
 
 | desc                 | img                                   | 
 |----------------------|---------------------------------------|
+| profile-list | ![](images/profile-list.PNG)          |
 | unsigned install     | ![](images/unsigned-install.PNG)      |
 | unsigned more detail | ![](images/unsigned-more-details.PNG) |
 | signed install       | ![](images/signed-install.PNG)        |

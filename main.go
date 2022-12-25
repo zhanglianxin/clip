@@ -8,6 +8,8 @@ import (
 	"os"
 )
 
+var version string
+
 func toBase64(bs []byte) string {
 	return base64.StdEncoding.EncodeToString(bs)
 }
@@ -19,7 +21,8 @@ func main() {
 		Flags: flags,
 		UsageText: "clip [global options] command [command options] [arguments...]\n" +
 			"\t arguments: just place your args [label url icon]... order by order",
-		Action: biz,
+		Action:  biz,
+		Version: version,
 	}
 
 	if err := app.Run(os.Args); err != nil {
